@@ -1,0 +1,107 @@
+/*
+JavaScript Calculator
+filename: main.css
+
+Author: Dwain Aiolupotea
+Date: 01 September 2021
+updated: 05 September 2021
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+h1 {
+  color: #e4f0fa;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+#container {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 10px;
+  background-color: #e4f0fa;
+  font-size: 90%;
+  font-weight: 700;
+  color: #0000b3;
+  border-radius: 3%;
+}
+
+div {
+  display: block;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+label {
+  width: 185px;
+  display: inline-block;
+}
+
+label[for="num1"] {
+  text-align: left;
+}
+
+input {
+  padding: 5px;
+  width: 70px;
+}
+
+#exit {
+  padding: 5px 10px;
+  margin: 0;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  display: inline;
+  position: relative;
+  left: 180px;
+  bottom: 25px;
+}
+
+#buttons {
+  margin: 5px auto;
+  text-align: center;
+}
+
+button,
+div {
+  margin: 0.5rem;
+}
+
+button {
+  background-color: rgb(77, 76, 255);
+  padding: 0.5rem 1rem;
+  font-size: 90%;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+p#resultBox {
+  color: rgb(7, 76, 255);
+  display: block;
+  height: 1rem;
+}

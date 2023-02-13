@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator App</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <script type="application/javascript" src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+</head>
+
+<body>
+  <h1>Calculator App</h1>
+  <div id="container">
+    <button type="button" id="exit">Close</button>
+    <form>
+      <div>
+        <label for="num1">Enter the first number: </label>
+        <input type="text" id="num1">
+      </div>
+      <div>
+        <label for="num2">Enter the second number: </label>
+        <input type="text" id="num2">
+      </div>
+      <div id="buttons">
+        <button type="button" id="plus">+</button>
+        <button type="button" id="minus">-</button>
+        <button type="button" id="multiply">&times;</button>
+        <button type="button" id="divide">&divide;</button>
+        <button type="button" id="modulo">%</button>
+        <button type="button" id="reset" type="reset">Clear</button>
+      </div>
+    </form>
+    <p id="result"></p>
+  </div>
+  <script src="./javascript/calculator.js"></script>
+</body>
+
+</html>
