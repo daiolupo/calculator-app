@@ -12,3 +12,5 @@ The task was to implement interactivity to a calculator app using UI Design & We
 - Testing for invalid user input
 - Close and clear button actions
 - Event handler for changing background color for all the buttons
+
+The calculator app can be viewed at https://daiolupo.github.io/calculator-app/
